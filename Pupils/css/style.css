@@ -33,14 +33,14 @@
 	display: inline-block;
 	padding: 20px;
 	color: #009788;
-	
+	color: pointer;
 }
 .handle{
 	width: 100%;
 	background-color: #F5F5F5;
 	text-align: left;
 	box-sizing: border-box;
-	padding: 15px 10px;
+	padding: 15px 20px;
 	cursor: pointer;
 	color: #009788;
 	display: none;
@@ -101,14 +101,28 @@ section{
 	margin: 0 auto;
 	background-color: white; 
 }
+aside{
+	padding: 0.3em;
+	box-shadow: 0 5px 1px rgba(0 , 0 , 0 , 0.2);
+}
+footer{
+	background-color: #F5F5F5;
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+}
 footer .social{
-	text-align: center;
+	height: 80px;
+	display: table;
+	margin: auto;
+	margin-top: 15px;
 }
 
 footer .social ul a{
 	text-decoration: none;
 	font-size: 33px;
 	color: #009788;
+	margin-left: 12px;
 }
 footer .social a:before{
 	font-family: 'icomoon';
@@ -127,3 +141,24 @@ footer .social a#youtube:before{
 	/*color:#B62716;*/
 	content :"\e900";
 }
+#nombre:hover{
+	cursor: pointer;
+	color: #9E9E9E;
+}
+footer .social a#facebook:hover{
+	color: #3F5C9A;
+}
+footer .social a#instagram:hover{
+	color: #004879;
+}
+footer .social a#youtube:hover{
+	color: #E51D12;
+}
+/*
+footer .social{
+	transition: all 0.3s ease;
+}
+footer .social:hover{
+	-webkit-transform: scale(0.8);
+}
+
