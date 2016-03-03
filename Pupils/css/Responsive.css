@@ -1,0 +1,19 @@
+@media screen and (max-width: 580px) {
+	
+	#navegador nav ul{
+		max-height: 0;
+	}
+	#navegador nav .showing{
+		max-height: 20em;
+	}
+	#navegador ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		text-align: left;
+	}
+	.handle{
+		display: block;
+	}
+
+}

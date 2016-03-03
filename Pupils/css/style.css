@@ -1,0 +1,129 @@
+/*
+	#009788 color verde
+ */
+#navegador{
+	
+	background-color: #F5F5F5;
+	width: 100%;
+	box-shadow: 0 0 5px 0 black;
+	position: fixed;
+}
+#navegador nav ul{
+	
+	font-family: 'Ubuntu Condensed', sans-serif;
+	overflow: hidden;
+	font-size: 18px;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	-webkit-trasition: max-height 0.4s;
+	
+
+}
+#nombre{
+	color: #009788;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 25px;
+	display: inline-block;
+	margin: 0;
+	padding-top: 6px;
+}
+
+#navegador nav ul li{
+	display: inline-block;
+	padding: 20px;
+	color: #009788;
+	
+}
+.handle{
+	width: 100%;
+	background-color: #F5F5F5;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: #009788;
+	display: none;
+}
+header{
+	text-align: center;
+	background-color: #009788;
+	width: 100%;
+	height: 350px;
+	margin: 0px;
+	position: static;
+}
+.grupo{
+	padding: 8em 0;
+	-webkit-animation-name: grupo;
+	animation-name: grupo;
+    -webkit-animation-duration: 5s;
+}
+img{
+	width: 165px;
+	height: 107px;
+	
+}
+h2{
+	font-size: 38px;
+	color: white;
+	font-family: 'Hammersmith One', sans-serif;
+	margin: 0;
+
+}
+
+@-webkit-keyframes grupo{
+	0%{
+		opacity: 0;
+	}
+	50%{
+
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+img, h2{
+	display: inline-block;
+	
+}
+#navegador nav ul li:hover{
+	color: #9E9E9E;
+	
+}
+
+section{
+	line-height: 1.5em;
+	font-size: 0.9em;
+	padding: 40px;
+	width: 75%;
+	margin: 0 auto;
+	background-color: white; 
+}
+footer .social{
+	text-align: center;
+}
+
+footer .social ul a{
+	text-decoration: none;
+	font-size: 33px;
+	color: #009788;
+}
+footer .social a:before{
+	font-family: 'icomoon';
+	
+}
+footer .social a#facebook:before{
+	/*color: #354583;*/
+
+	content :"\e906";
+}
+footer .social a#instagram:before{
+	/*color:#B56F3B;*/
+	content :"\e907";
+}
+footer .social a#youtube:before{
+	/*color:#B62716;*/
+	content :"\e900";
+}
