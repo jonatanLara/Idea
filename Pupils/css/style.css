@@ -141,6 +141,10 @@ footer .social a#youtube:before{
 	/*color:#B62716;*/
 	content :"\e900";
 }
+footer .social a#facebook li{
+	border:solid green;
+	display: none;
+}
 #nombre:hover{
 	cursor: pointer;
 	color: #9E9E9E;
