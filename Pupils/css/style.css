@@ -71,6 +71,42 @@ h2{
 	margin: 0;
 
 }
+#webs{
+	background: #F5F5F5;
+	text-align: center;
+	padding: 20px;
+}
+#webs article{
+	
+	padding: 10px;
+	width: 150px;
+	display: inline-block;
+	margin: 5px;
+	color: #009788;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	cursor: pointer;
+}
+#webs article:hover{
+	background:#E1E1E1;
+
+}
+#webs article img{
+	transition: all 0.3s ease;
+	width: 100px;
+	height: 100px;
+
+}
+#titlewebs{
+	width: 78%;
+	margin: 0 auto;
+	padding: 5px;
+}
+#titlewebs h2{
+	color: black;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	text-align:center;
+	
+}
 
 @-webkit-keyframes grupo{
 	0%{
@@ -107,17 +143,21 @@ aside{
 }
 footer{
 	background-color: #F5F5F5;
+	clear:both;
+	float: left;
+	margin-top: 20px;
+	box-sizing:border-box;
 	width: 100%;
-	height: 200px;
-	display: inline-block;
+	padding: 20px;
 }
 footer .social{
 	height: 80px;
-	display: table;
 	margin: auto;
-	margin-top: 15px;
+	width: 260px;
 }
-
+footer .social ul{
+	margin: auto 0;
+}
 footer .social ul a{
 	text-decoration: none;
 	font-size: 33px;
@@ -154,6 +194,10 @@ footer .social a#instagram:hover{
 }
 footer .social a#youtube:hover{
 	color: #E51D12;
+}
+#webs article:hover img{
+	-webkit-transform: scale(0.8);
+	
 }
 /*
 footer .social{
